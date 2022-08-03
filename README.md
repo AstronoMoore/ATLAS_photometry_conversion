@@ -14,7 +14,9 @@ Photometry from telescopes 03 and 04 have not yet been added to the FP server an
 
 
 # Code
+
 fp_to_clean.py is a hastily written code to convert the photometry (from the FP server) we already have to be compatible with clean_atlas_lc.py
+
 raw_to_fp.py converts raw photometry from the atlas eyeballing page to be the same format as the output from the FP server. 
 
  
