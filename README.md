@@ -9,7 +9,7 @@ There are three formats of ATLAS forced photometry (FP) used within the group.
 
 # Motivation
 Sofia's download_atlas_lc.py code downloads photometry from the forced server in a format ready to be used by clean_atlas_lc.py. 
-We have a significant amount of compiled photometry for the 100 Mpc Rates & ATLAS long risers papers - the photometry needs to be converted to be used by clean_atlas_lc.py. This is a simple pandas problem. 
+However, we have a significant amount of compiled photometry for the 100 Mpc Rates & ATLAS long risers papers - the photometry needs to be converted to be used by clean_atlas_lc.py. In principle we could rerequest this photometry but this is wasteful especially since this is just a simple pandas problem. 
 Photometry from telescopes 03 and 04 have not yet been added to the FP server and therfore we need to use forced photometry from the atlas pages and convert this to be used by the clean_atlas_lc.py code. 
 
 
