@@ -25,4 +25,6 @@ fp_to_clean.py is a hastily written code to convert the photometry (from the FP 
 
 raw_to_fp.py converts raw photometry from the atlas eyeballing page to be the same format as the output from the FP server. 
 
+
+Goal is to take a raw output from the atlas page through to beinf compatible with the clean_atlas_lc.py python code ß
  
