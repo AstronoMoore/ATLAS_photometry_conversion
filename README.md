@@ -8,7 +8,7 @@ There are three formats of ATLAS forced photometry (FP) used within the group.
 3. Single filter files used as inputs to the new clean_atlas_lc.py tool 
 
 # Motivation
-Sofia's download_atlas_lc.py code downloads photometry from the forced server in a format ready to be used by clean_atlas_lc.py. 
+The new light curve cleaning code downloads photometry from the forced server in a format ready to be used by clean_atlas_lc.py. 
 However, we have a significant amount of compiled photometry for the 100 Mpc Rates & ATLAS long risers papers - the photometry needs to be converted to be used by clean_atlas_lc.py. In principle we could rerequest this photometry but this is wasteful especially since this is just a simple pandas problem. 
 Photometry from telescopes 03 and 04 have not yet been added to the FP server and therfore our only access to FP is from the atlas pages. The goal of raw_to_fp.py is to convert from the atlas pages FP format to the format of the FP server. 
 
